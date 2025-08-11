@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: yoshi389111/github-profile-3d-contrib@latest
         env:
-          GITHUB_TOKEN: ${{ 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 }}
+          GITHUB_TOKEN: ${{  }}
           USERNAME: ${{ oto1720 }}
       - name: Commit & Push
         run: |
